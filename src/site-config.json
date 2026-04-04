@@ -1,0 +1,552 @@
+{
+  "business": {
+    "name": "Legacy Plumbing",
+    "phone": "555-plu-rq10",
+    "category": "plumbing",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "plumbing-heritage-craft",
+      "categoryGroup": "plumbing",
+      "name": "Heritage Craft",
+      "recipeFile": "plumbing/heritage-craft.astro",
+      "colors": {
+        "primary": "#2A6B8A",
+        "primaryDark": "#194053",
+        "primaryLight": "#b4cbd6",
+        "secondary": "#245b75",
+        "accent": "#2A6B8A",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#245b75",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "plumbing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Atlanta's Trusted Plumbing Experts",
+      "heroSubline": "Legacy Plumbing has been keeping Atlanta homes flowing smoothly for over a decade. We understand how Georgia's climate and aging pipes affect your home.",
+      "aboutTitle": "Rooted in Atlanta, Built on Trust",
+      "aboutText": [
+        "Founded in 2012, Legacy Plumbing began as a small family operation serving historic neighborhoods like Virginia-Highland and Inman Park. We've grown by treating every home like it's our own.",
+        "Our approach combines old-school craftsmanship with modern solutions tailored to Atlanta's unique plumbing challenges. We know red clay soil shifts pipes and summer humidity accelerates corrosion.",
+        "When we're not under your sink, we're volunteering with Atlanta Habitat for Humanity or sponsoring Little League teams across Cobb County. This city's our home too."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Knowledge",
+          "description": "We've serviced every type of Atlanta home from Craftsman bungalows to modern infill houses, understanding their unique plumbing needs."
+        },
+        {
+          "title": "Preventative Focus",
+          "description": "Our maintenance plans help avoid costly repairs from Georgia's extreme weather and soil conditions."
+        },
+        {
+          "title": "Neighborly Service",
+          "description": "Same friendly technicians every visit who remember your home's plumbing history."
+        },
+        {
+          "title": "No Surprises",
+          "description": "Upfront pricing with detailed explanations before we turn a wrench."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Plumbing Checkup Today",
+      "ctaSubline": "Our Atlanta-based team is ready to help with any plumbing need, big or small."
+    },
+    "services": [
+      {
+        "slug": "emergency-plumbing",
+        "name": "Emergency Plumbing",
+        "shortDescription": "24/7 response when Atlanta's weather or aging pipes cause crises.",
+        "description": "When a pipe bursts during an Atlanta ice storm or your basement floods after a summer thunderstorm, we're here day or night.\n\nOur emergency vans are stocked with parts common in Georgia homes - from galvanized pipe fittings for older bungalows to PEX supplies for modern renovations. We prioritize stopping active water damage first, then provide transparent repair options.\n\nCommon emergency calls include: frozen pipe bursts in Buckhead's historic homes, sewer backups from root intrusion in Midtown's mature trees, and water heater failures during pollen season when sediment clogs systems.",
+        "process": [
+          "Step 1: Immediate phone assessment to contain damage",
+          "Step 2: Arrival within 90 minutes with full diagnostic equipment",
+          "Step 3: Temporary solution implemented if complex repair needed",
+          "Step 4: Detailed follow-up report with prevention recommendations"
+        ],
+        "benefits": [
+          "Georgia-licensed master plumbers on every truck",
+          "No overtime charges for nights/weekends",
+          "Follow-up maintenance included",
+          "Insurance documentation assistance"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to emergencies?",
+            "answer": "We guarantee a technician will be on the road within 30 minutes of your call, typically arriving in under 90 minutes across metro Atlanta. Our Marietta and Roswell locations help us cover the northern suburbs quickly."
+          },
+          {
+            "question": "Do you handle sewer line emergencies?",
+            "answer": "Yes, we're equipped for sewer scopes and repairs, especially common in neighborhoods with older clay pipes like those found in Druid Hills and Candler Park."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-services",
+        "name": "Water Heater Services",
+        "shortDescription": "Installation and repair for Atlanta's hard water conditions.",
+        "description": "Georgia's mineral-rich water shortens water heater lifespans, especially in homes built before 2000. We specialize in solutions for Atlanta's unique conditions.\n\nFor historic homes, we retrofit compatible tankless systems that fit in tight spaces. In newer subdivisions, we install hybrid heat pump models that handle summer humidity efficiently. Every installation includes whole-house water pressure testing - crucial with our area's fluctuating municipal supply.\n\nSigns you need service: rusty water in Old Fourth Ward apartments, rumbling noises in Vinings townhomes, or lukewarm showers in Sandy Springs during peak usage times.",
+        "process": [
+          "Step 1: Water quality and usage assessment",
+          "Step 2: Energy-efficient model recommendations",
+          "Step 3: Permitted installation with flood prevention",
+          "Step 4: Post-installation pressure adjustment"
+        ],
+        "benefits": [
+          "Tankless options for small Atlanta basements",
+          "Hard water treatment solutions",
+          "10-year warranty on installations",
+          "Rebate paperwork assistance"
+        ],
+        "faq": [
+          {
+            "question": "How often should Atlanta water heaters be serviced?",
+            "Answer": "Annual maintenance is crucial here - sediment builds up faster with our water hardness. We recommend flushing before pollen season when mineral deposits combine with sediment."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Solving Atlanta's common root intrusion and grease clog issues.",
+        "description": "Between Southern cooking traditions and our lush tree canopy, Atlanta homes face unique drain challenges. We use camera inspections to pinpoint problems without unnecessary digging.\n\nIn older neighborhoods like Grant Park, we frequently find terra cotta pipes compromised by magnolia roots. In newer areas like Brookhaven, improper grease disposal causes kitchen line blockages. Our hydro-jetting trucks can handle even the toughest clogs in Atlanta's variable pipe materials.\n\nWatch for these signs: Multiple fixtures backing up in Decatur bungalows, gurgling sounds in Smyrna bathroom drains, or slow drainage in Dunwoody kitchen sinks after holiday meals.",
+        "process": [
+          "Step 1: Camera inspection to diagnose blockage type",
+          "Step 2: Method selection (snaking, hydro-jetting, etc.)",
+          "Step 3: Root treatment for prevention if needed",
+          "Step 4: Disposal recommendations to prevent recurrence"
+        ],
+        "benefits": [
+          "No-dig solutions preserve landscaping",
+          "Grease trap installation available",
+          "Root growth inhibitors",
+          "Service records for future home sales"
+        ],
+        "faq": [
+          {
+            "question": "Can you handle main sewer line clogs?",
+            "Answer": "Absolutely. We specialize in clearing Atlanta's common 4-6\" clay and cast iron main lines, using techniques that won't damage older pipes found in communities like East Lake and Kirkwood."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair",
+        "name": "Pipe Repair & Replacement",
+        "shortDescription": "Solutions for Atlanta's shifting soil and aging pipe systems.",
+        "description": "Georgia's expansive red clay causes more pipe movement than most regions, leading to leaks at joints and stress fractures. We've mastered repair techniques for every era of Atlanta housing.\n\nFor historic homes in Cabbagetown, we preserve original plumbing where possible using sleeve repairs. In 1980s subdivisions like those around Perimeter Mall, we replace failing polybutylene pipes before catastrophic failures occur. Our trenchless methods minimize disruption to your landscaping and hardscapes.\n\nWarning signs include: Unexplained water bills in Ansley Park homes, damp spots in Buckhead crawl spaces, or reduced pressure in Chamblee's mid-century ranches.",
+        "process": [
+          "Step 1: Pressure testing and camera inspection",
+          "Step 2: Material analysis (galvanized, copper, etc.)",
+          "Step 3: Repair vs. replacement recommendation",
+          "Step 4: Permitted work with city inspection coordination"
+        ],
+        "benefits": [
+          "Soil movement-resistant installations",
+          "Historic home specialists",
+          "Foundation-safe work practices",
+          "25-year warranty on replacements"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my pipes need replacement?",
+            "Answer": "Frequent pinhole leaks, discolored water, and pressure drops suggest systemic issues - common in Atlanta homes built between 1960-1990. We'll show you camera footage to make informed decisions."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Plumbing upgrades for Atlanta's bathroom renovations.",
+        "description": "Atlanta's mix of historic charm and modern living creates unique bathroom plumbing challenges. We help homeowners preserve character while adding functionality.\n\nIn Virginia-Highland bungalows, we carefully relocate plumbing in pier-and-beam foundations. For high-rise condos in Midtown, we coordinate with building management on riser access. Every project begins with a water efficiency assessment - crucial with our summer drought risks.\n\nPopular upgrades include: Converting clawfoot tubs to walk-in showers in Inman Park, adding laundry hookups to O4W lofts, and creating spa bathrooms in Buckhead estates without compromising water pressure.",
+        "process": [
+          "Step 1: Structural assessment for older homes",
+          "Step 2: Fixture and layout planning",
+          "Step 3: Permitting assistance",
+          "Step 4: Precision installation with daily cleanup"
+        ],
+        "benefits": [
+          "Historic preservation specialists",
+          "Water-efficient fixture options",
+          "Seamless HOA coordination",
+          "5-year craftsmanship warranty"
+        ],
+        "faq": [
+          {
+            "question": "Can you work with my historic home's limitations?",
+            "Answer": "Absolutely. We've successfully updated plumbing in Atlanta Landmark homes throughout Druid Hills and Morningside without compromising their character or violating preservation guidelines."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Detection",
+        "shortDescription": "Finding hidden leaks before Atlanta's soil shifts cause damage.",
+        "description": "Undetected leaks in Atlanta homes can lead to foundation issues and mold growth in our humid climate. Our advanced detection methods pinpoint problems without unnecessary wall demolition.\n\nUsing thermal imaging and acoustic sensors, we trace leaks common in Georgia homes: slab leaks in ranch homes from soil movement, condensation issues in high-rise condos, and supply line drips behind the brick walls of historic properties. We provide detailed moisture maps to guide repairs.\n\nBe alert for: Musty smells in Sandy Springs basements, warm spots on hardwood floors in Decatur, or unexplained vegetation growth near foundations in Vinings.",
+        "process": [
+          "Step 1: Non-invasive moisture mapping",
+          "Step 2: Pressure testing of systems",
+          "Step 3: Thermal and acoustic diagnostics",
+          "Step 4: Repair plan with moisture remediation"
+        ],
+        "benefits": [
+          "Preserves finishes in historic homes",
+          "Identifies foundation risks early",
+          "Includes mold prevention consultation",
+          "Insurance claim documentation"
+        ],
+        "faq": [
+          {
+            "question": "How accurate are your leak detection methods?",
+            "Answer": "Our equipment can locate leaks within 6 inches - crucial for Atlanta homes where a small leak can travel far in our porous red clay before surfacing."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Emergency Plumbing",
+        "text": "When a pipe burst in our 1930s Ansley Park home during last January's freeze, Legacy had a team here in 45 minutes. They not only fixed the immediate issue but showed me where other vulnerable spots were in our old plumbing system. Six months later, their maintenance plan caught another weak joint before it failed.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Water Heater Services",
+        "text": "Our Dunwoody home's water heater died right before family arrived for Thanksgiving. Legacy installed a new heat pump model that handles our hard water beautifully. The technician even adjusted our whole-house pressure to prevent stress on the old pipes upstairs. Five months later, our energy bills are noticeably lower.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "James and Laurie K.",
+        "rating": 5,
+        "service": "Bathroom Remodeling",
+        "text": "We wanted to update our Virginia-Highland bungalow's bathroom without losing its charm. Legacy designed plumbing that accommodated the original tile work while adding modern water efficiency. They coordinated perfectly with our carpenter and preserved the heart pine floors we'd worried about protecting.",
+        "date": "2025-04-05"
+      },
+      {
+        "name": "Nina P.",
+        "rating": 5,
+        "service": "Drain Cleaning",
+        "text": "After three plumbers couldn't solve our recurring drain issues in our Brookhaven home, Legacy's camera found roots growing through a poorly sealed joint. Their hydro-jetting cleared it completely, and the root inhibitor treatment has kept it clear through Atlanta's rainy spring. Finally - a permanent solution!",
+        "date": "2025-05-18"
+      },
+      {
+        "name": "David W.",
+        "rating": 5,
+        "service": "Pipe Repair",
+        "text": "The leak detection service saved us thousands. Legacy found moisture under our Buckhead home's foundation that six other inspections missed. Their trenchless pipe replacement minimized disruption to our landscaping and was completed in one day. The detailed report helped with our insurance claim too.",
+        "date": "2025-02-10"
+      },
+      {
+        "name": "Sophia M.",
+        "rating": 5,
+        "service": "Leak Detection",
+        "text": "Our Inman Park loft had mysterious water stains appearing on the ceiling. Legacy's thermal imaging found a condensation issue between floors that our building's maintenance team had overlooked. Their repair was clean and efficient, and they followed up twice to ensure everything stayed dry during Atlanta's humid summer.",
+        "date": "2025-06-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Atlanta Plumbing Services | Legacy Plumbing",
+        "description": "Trusted local plumbers serving Atlanta since 2012. Emergency repairs, water heaters, drain cleaning and more for Georgia homes."
+      },
+      "about": {
+        "title": "About Legacy Plumbing - Atlanta's Local Experts",
+        "description": "Learn how our Atlanta-based team brings decades of experience solving Georgia's unique plumbing challenges in homes throughout the metro area."
+      },
+      "services": {
+        "title": "Atlanta Plumbing Services | Complete Solutions",
+        "description": "From emergency pipe repairs to bathroom remodels, we handle all plumbing needs for Atlanta homes with local expertise you can trust."
+      },
+      "contact": {
+        "title": "Contact Atlanta's Plumbing Experts | Legacy",
+        "description": "Schedule service or get advice from our Atlanta plumbing team. Serving Marietta, Roswell, Alpharetta and all metro communities."
+      },
+      "reviews": {
+        "title": "Atlanta Plumbing Reviews | Legacy Plumbing",
+        "description": "See what Atlanta homeowners say about our plumbing services in neighborhoods from Buckhead to Decatur and throughout the metro area."
+      },
+      "service-areas": {
+        "title": "Atlanta Plumbing Service Areas | Legacy",
+        "description": "We provide complete plumbing services to homes across Atlanta including Marietta, Roswell, Alpharetta, Johns Creek and Kennesaw."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing proudly serves Marietta, GA, a vibrant city with a population of around 60,000 residents. Many homes in Marietta were built in the 1960s and 1970s, featuring classic suburban subdivisions that often require plumbing updates or repairs due to aging systems. Our team is experienced in handling the unique challenges posed by older plumbing infrastructure, ensuring your home remains functional and efficient. With hot, humid summers common in Marietta, we also specialize in solutions like sump pumps and water-efficient fixtures to help homeowners manage moisture and conserve water.",
+        "localContext": "Marietta is known for its historic charm and established neighborhoods, many of which feature mid-century homes with original plumbing systems.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Smyrna",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing is your trusted plumbing expert in Roswell, GA, a thriving community with approximately 95,000 residents. The city is home to upscale subdivisions built in the 1980s and 1990s, where modern plumbing systems are common but may still require maintenance or upgrades. Our team is well-versed in servicing high-end homes, offering everything from leak detection to water heater installations. Roswell's hot, humid summers make efficient plumbing systems essential, and we provide solutions like tankless water heaters and smart irrigation to help homeowners save on utility bills.",
+        "localContext": "Roswell is an affluent suburb known for its well-maintained neighborhoods and a mix of traditional and contemporary homes.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Milton",
+          "Johns Creek"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing delivers top-tier plumbing services to Alpharetta, GA, a bustling city with around 67,000 residents. Alpharetta is renowned for its upscale developments built in the 1990s and 2000s, featuring modern plumbing systems that occasionally need expert care. Whether you're dealing with a clogged drain or planning a bathroom remodel, our team provides reliable, professional service tailored to your needs. Given Alpharetta's hot, humid climate, we also recommend preventative maintenance to avoid issues like pipe corrosion or mold growth.",
+        "localContext": "Alpharetta is a fast-growing city with a reputation for luxury homes, excellent schools, and a thriving business community.",
+        "nearbyAreas": [
+          "Roswell",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing is proud to serve Johns Creek, GA, an upscale city with approximately 84,000 residents. Many homes in Johns Creek were constructed in the 1990s and 2000s, featuring high-quality plumbing systems that still benefit from regular maintenance. Our team specializes in servicing these newer homes, offering everything from emergency repairs to custom installations. The hot, humid summers in Johns Creek can strain plumbing systems, so we provide solutions like water softeners and efficient fixtures to enhance durability and performance.",
+        "localContext": "Johns Creek is one of Georgia's most affluent suburbs, known for its spacious homes, top-rated schools, and well-planned communities.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Roswell",
+          "Duluth"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing is your go-to plumbing service provider in Kennesaw, GA, a charming suburban city with around 35,000 residents. Kennesaw's housing stock primarily consists of 1980s and 1990s suburban developments, where plumbing systems may need updates or repairs. Our team is skilled in addressing common issues like pipe leaks, water pressure problems, and outdated fixtures. With Kennesaw's hot, humid summers, we also recommend seasonal inspections to prevent plumbing failures and ensure optimal system performance.",
+        "localContext": "Kennesaw offers a family-friendly atmosphere with a mix of mid-sized homes and newer developments, all within easy reach of Atlanta.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing provides exceptional plumbing services to Sandy Springs, GA, a dynamic city with a mix of older and newer homes. Sandy Springs is known for its diverse housing options, from mid-century properties to modern luxury estates. Our team is equipped to handle any plumbing challenge, whether it's repairing aging pipes or installing state-of-the-art fixtures. The city's hot, humid climate makes regular maintenance crucial, and we offer tailored solutions to keep your plumbing system running smoothly year-round.",
+        "localContext": "Sandy Springs combines urban convenience with suburban comfort, featuring a range of housing styles and a thriving commercial sector.",
+        "nearbyAreas": [
+          "Roswell",
+          "Atlanta",
+          "Dunwoody"
+        ]
+      },
+      {
+        "city": "Dunwoody",
+        "slug": "dunwoody-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing is proud to serve Dunwoody, GA, an upscale community with a mix of established and newer homes. Dunwoody's neighborhoods feature a variety of plumbing systems, from older galvanized pipes to modern PEX installations. Our team specializes in diagnosing and resolving plumbing issues efficiently, ensuring minimal disruption to your home. Given Dunwoody's hot, humid summers, we also emphasize the importance of water-efficient fixtures and leak detection to prevent costly damage.",
+        "localContext": "Dunwoody is a well-regarded suburb with a blend of residential charm and commercial vibrancy, located just north of Atlanta.",
+        "nearbyAreas": [
+          "Sandy Springs",
+          "Brookhaven",
+          "Chamblee"
+        ]
+      },
+      {
+        "city": "Woodstock",
+        "slug": "woodstock-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing delivers reliable plumbing services to Woodstock, GA, a growing city with a mix of historic and contemporary homes. Woodstock's housing market includes charming older properties as well as newer subdivisions, each with unique plumbing needs. Our team is experienced in handling everything from routine maintenance to complex installations. With Woodstock's hot, humid summers, we recommend proactive measures like sump pump installations and pipe insulation to protect your home.",
+        "localContext": "Woodstock offers a small-town feel with modern amenities, attracting families and professionals alike.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Marietta",
+          "Canton"
+        ]
+      },
+      {
+        "city": "Acworth",
+        "slug": "acworth-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing is your trusted plumbing partner in Acworth, GA, a lakeside community with a mix of older and newer homes. Acworth's plumbing systems range from vintage cast iron pipes to modern copper and PVC setups, each requiring specialized care. Our team provides expert repairs, replacements, and upgrades to ensure your home's plumbing operates flawlessly. The city's hot, humid summers make water conservation and leak prevention top priorities, and we offer solutions to address both.",
+        "localContext": "Acworth is known for its scenic lakes, friendly neighborhoods, and a blend of historic and contemporary housing.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Marietta",
+          "Cartersville"
+        ]
+      },
+      {
+        "city": "Milton",
+        "slug": "milton-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing serves Milton, GA, an affluent city characterized by large estates and upscale subdivisions. Milton's homes often feature high-end plumbing systems that require professional maintenance and care. Our team specializes in catering to luxury properties, offering discreet, efficient service for everything from faucet repairs to whole-house repiping. Milton's hot, humid summers can accelerate wear on plumbing components, making regular inspections and timely repairs essential.",
+        "localContext": "Milton is renowned for its equestrian culture, spacious lots, and meticulously maintained homes.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Roswell",
+          "Cumming"
+        ]
+      },
+      {
+        "city": "Cumming",
+        "slug": "cumming-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing provides expert plumbing services to Cumming, GA, a rapidly growing city with a mix of rural and suburban homes. Cumming's plumbing systems vary widely, from older well-based setups to modern municipal connections. Our team is adept at handling all types of plumbing, ensuring reliable water flow and drainage for your home. The city's hot, humid summers necessitate robust plumbing solutions, and we offer everything from water filtration systems to emergency leak repairs.",
+        "localContext": "Cumming combines a relaxed, country atmosphere with the conveniences of a modern suburb.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Milton",
+          "Dawsonville"
+        ]
+      },
+      {
+        "city": "Smyrna",
+        "slug": "smyrna-ga",
+        "state": "GA",
+        "content": "Legacy Plumbing is proud to serve Smyrna, GA, a diverse city with a range of housing styles and plumbing needs. Smyrna's homes include mid-century classics and newer builds, each requiring tailored plumbing solutions. Our team excels at addressing common issues like sewer line blockages, water heater failures, and low water pressure. Smyrna's hot, humid summers make efficient plumbing systems a must, and we provide upgrades like low-flow fixtures and smart irrigation to help homeowners save water.",
+        "localContext": "Smyrna offers a lively mix of residential and commercial spaces, with easy access to Atlanta's amenities.",
+        "nearbyAreas": [
+          "Marietta",
+          "Vinings",
+          "Atlanta"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp",
+      "water-heater-services": "/images/service-water-heater-services.webp",
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "pipe-repair": "/images/service-pipe-repair.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "leak-detection": "/images/service-leak-detection.webp"
+    },
+    "servicesResponsive": {
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-services": {
+        "src": "/images/service-water-heater-services.webp",
+        "srcset": "/images/service-water-heater-services-400w.webp 400w, /images/service-water-heater-services-800w.webp 800w, /images/service-water-heater-services-1200w.webp 1200w, /images/service-water-heater-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair": {
+        "src": "/images/service-pipe-repair.webp",
+        "srcset": "/images/service-pipe-repair-400w.webp 400w, /images/service-pipe-repair-800w.webp 800w, /images/service-pipe-repair-1200w.webp 1200w, /images/service-pipe-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
